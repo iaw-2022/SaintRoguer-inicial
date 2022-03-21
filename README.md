@@ -2,7 +2,8 @@
 
 ## Idea a Implementar
 
-> Acá se debe explicar la idea general de lo que se quiere implementar
+> La idea es implementar un conjunto de aplicaciónes que permitan visualizar trailers de peliculas
+	y infromacion adicional sobre estas.
 
 ## Diagrama ER
 
@@ -10,12 +11,41 @@
 
 ## Actualizaciones a los datos
 
-> De qué forma se permitira agregar, modificar y quitar los datos en el Proyecto Framework PHP - Laravel
+> El proyecto Framework PHP - Laravel permitirá:
+A usuarios con el rol de usuario:
+-Guardar una pelicula como vista.
+-Puntuar una pelicula.
+-Dejar un comentario.
+
+A usuarios con el rol de administrador:
+-Administrar usuarios.
+-Añadir/eliminar/modificar una peliculas y sus datos.
+-Crear tags que se pueden añadir a una pelicula.
+-Crear una lista de recomendacion semanalmente.
+
+Ademas se cargaran a la base de datos distintas criticas a las peliculas por medio de apis.
 
 ## Información del Servicio Web
 
-> Qué información será accesible desde el servicio web y de qué manera.
+> El serivico web permitirá acceder a las distintas peliculas con el siguiente campo:
+-Nombre.
+
+
+Ademas el serivicio tambien permitirá acceder a las distintas peliculas utilizando filtros con uno o mas de los siguientes campos:
+-Nombre.
+-Fecha de publicacion.
+-Puntuacion.
+-Tags.
+-Vistas.
+
+El serivicio tambien permitirá acceder a las listas de recomendaciones anteriores o de la semana actual.
+	
+El servicio permitirá acceder a los comentarios realizados en las peliculas y sus criticas.
+
+
 
 ## Visualización y Acceso a la Información
 
-> Como se visualizará y se permitirá acceder a la información pública en el Proyecto Javascript - React/Vue
+> Proyecto Javascript - React:
+	Permitira al usuario ingresar una busqueda de peliculas, permitiendo agregar filtros de manera iterativa y amigable.
+	Ademas mostrara las recomendaciones de peliculas, peliculas relacionadas y sugerencias de donde podria mirarlas.
