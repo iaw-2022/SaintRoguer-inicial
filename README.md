@@ -7,7 +7,8 @@
 
 ## Diagrama ER
 
-> Se debe incluir un Diagrama ER de los datos a utilizar
+> ![Trailerama ER](https://user-images.githubusercontent.com/54337526/159197194-1c6b7d0b-ff90-43ca-8b89-0226b64b7926.jpg)
+
 
 ## Actualizaciones a los datos
 
