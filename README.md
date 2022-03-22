@@ -40,6 +40,8 @@ Además el servicio también permitirá acceder a las distintas películas utili
  - Tags.
  - Vistas.
 
+El servicio permitirá loguearse con datos recibidos, y retornará un token de identificación.
+
 El servicio también permitirá acceder a las listas de recomendaciones anteriores o de la semana actual.
 	
 El servicio permitirá acceder a los comentarios realizados en las películas y sus críticas.
@@ -51,5 +53,8 @@ Proyecto Javascript-React:
  - Permitirá al usuario ingresar una búsqueda de películas, permitiendo agregar filtros de manera iterativa y amigable.
  - Además mostrará las recomendaciones de películas, películas relacionadas y sugerencias de donde podría mirarlas.
  - Se podrá buscar películas que se hayan estrenado recientemente o que no se han estrenado aún.
+ - Además está planeada la posibilidad de loguearse y explorar las películas vistas.
+ - Está planeado también tener una lista de películas recomendadas según la lista de películas vistas y la puntuación que se le puso.
+
 
 
